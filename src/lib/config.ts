@@ -2,12 +2,12 @@ export const siteConfig = {
   title: 'Roadmaps to becoming a modern developer',
   description: 'Community driven roadmaps, articles and guides for developers to grow in their career.',
   url: {
-    twitter: 'https://twitter.com/roadmapsh',
+    twitter: 'https://twitter.com/VaLandscapes',
     youtube: 'https://youtube.com/theroadmap?sub_confirmation=1',
-    repo: 'https://github.com/kamranahmedse/developer-roadmap',
+    repo: 'https://github.com/uvacoder/test-roadmap-astro',
     contribute:
-      'https://github.com/kamranahmedse/developer-roadmap/tree/master/contributing.md',
-    issue: 'https://github.com/kamranahmedse/developer-roadmap/issues/new',
+      'https://github.com/uvacoder/test-roadmap-astro/tree/master/contributing.md',
+    issue: 'https://github.com/uvacoder/test-roadmap-astro/issues/new',
   },
   keywords: [
     'roadmap',
