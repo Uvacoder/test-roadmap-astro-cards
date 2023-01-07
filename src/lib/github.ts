@@ -5,7 +5,7 @@ const formatter = Intl.NumberFormat('en-US', {
 let starCount: number | undefined = undefined;
 
 export async function countStars(
-  repo = 'kamranahmedse/developer-roadmap'
+  repo = 'uvacoder/test-roadmap-astro'
 ): Promise<number> {
   if (starCount) {
     return starCount;
@@ -25,7 +25,7 @@ export async function countStars(
 }
 
 export async function getFormattedStars(
-  repo = 'kamranahmedse/developer-roadmap'
+  repo = 'uvacoder/test-roadmap-astro'
 ): Promise<string> {
   if (import.meta.env.DEV) {
     return '224k';
